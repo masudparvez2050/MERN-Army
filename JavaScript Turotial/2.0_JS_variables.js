@@ -48,3 +48,44 @@ const h = 6;
 
 g = g + h;
 console.log(g); // Outputs: 11
+
+// One Statement Manny Variables
+
+let i = 5,
+  j = 6,
+  k = i + j;
+
+console.log(k); // Outputs: 11
+
+// Variable Naming Conventions
+
+var myName;
+var cartCheckOut;
+var myNewVariablePostNumber;
+var MyName;
+var my_name;
+
+// Example for only "var"
+
+var myVariable1;
+myVariable1 = "Masud";
+var myVariable1 = 10;
+console.log(myVariable1);
+
+var myVariable2;
+var myVariable3;
+
+// Data Type
+
+let myVariable4 = "Masud";
+let myVariable5 = 10;
+let myVariable6 = true;
+let myVariable7 = { name: "Masud", age: 30 };
+let myVariable8 = [1, 2, 3, 4];
+
+var F = 10;
+var G = "1";
+
+console.log(F - G);
+
+// Example for only "let"
