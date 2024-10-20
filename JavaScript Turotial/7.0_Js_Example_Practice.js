@@ -147,10 +147,10 @@ if (a > b && a > c) {
 
 let sum = 0;
 
-for (let i = 1; i <= 10; i++) {
-  if (i % 2 === 0) {
-    sum += i;
-  }
+for (let i = 1; i <= 4; i++) {
+  
+    sum = sum +  i;
+
 }
 console.log("Sum of even numbers from 1 to 20 is: " + sum);
 
