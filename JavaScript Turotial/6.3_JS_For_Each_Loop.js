@@ -32,7 +32,7 @@ const fruits2 = ["apple", "banana", "cherry"];
 fruits.forEach(fruit => console.log(fruit)); // Logs "apple", "banana", "cherry"
 
 // Detailed Breakdown
-// Callback Function:
+// Callback Function: 
 
 // The callback function is executed once for each element in the array.
 // You can use this function to perform operations on the elements.
@@ -56,6 +56,7 @@ numbers.forEach((number, index) => {
 });
 
 
+
 // Output:
 // Index 0: 10
 // Index 1: 20
@@ -69,6 +70,8 @@ numbers.forEach((number, index, arr) => {
 });
 
 console.log(numbers); // Logs [2, 4, 6, 8]
+
+
 
 // Modifying array elements directly within forEach can be done, but it’s not always recommended as it can lead to side effects. Use methods like map if you need to transform and return a new array.
 

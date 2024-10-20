@@ -29,6 +29,7 @@ while (condition) {
   // Code to execute while condition is true
 }
 Example: var i = 0;
+
 while (i < 5) {
   console.log(i); // Logs 0, 1, 2, 3, 4
   i++;
@@ -45,6 +46,7 @@ while (i < 5) {
 do {
   // Code to execute
 } while (condition);
+
 Example: var i = 0;
 do {
   console.log(i); // Logs 0, 1, 2, 3, 4

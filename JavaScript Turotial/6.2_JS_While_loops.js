@@ -55,6 +55,7 @@ while (userInput !== "exit") {
   console.log("You entered: " + userInput);
 }
 // This loop will continue prompting the user until they type "exit".
+
 // 3. Reading from an Array
 
 let index = 0;
